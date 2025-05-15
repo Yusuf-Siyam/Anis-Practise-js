@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gid-contanier{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto
+    auto auto;
+
+}
+header{
+    grid-column: 1/7;
+    background-color: black;
+    color: brown;
+    height: 10vh;
+}
+nav{
+    grid-column: 1/2;
+    background-color: rgb(87, 8, 8);
+    color: rgb(197, 172, 172);
+}
+main{
+
+    grid-column: 2/5;
+    background-color: rgb(209, 176, 176);
+    color: rgb(51, 39, 161);
+}
+
+aside{
+     grid-column: 5/7;
+    background-color: rgb(134, 45, 45);
+    color: rgb(8, 3, 50);
+}
